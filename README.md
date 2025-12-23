@@ -1,24 +1,3 @@
-# cgan_jittor
+# Class-Conditional Image Generation via Conditional Generative Adversarial Networks (cGAN)
 
-## 概述
-本项目实现了一个条件生成对抗网络（cGAN），用于根据特定类别标签生成图像。该模型旨在从随机噪声和类别信息中生成高质量的图像，展示了GAN在条件图像生成任务中的能力。
-
-## 功能
-- 基于类别标签的条件图像生成。
-- 采用生成器和判别器架构。
-- 使用Adam优化器进行高效训练。
-- 支持在训练过程中按指定间隔进行图像采样。
-- 包含计算FID分数的功能，用于评估图像质量。
-
-## 环境要求
-- Python 3.7以上
-- Jittor
-
-## 使用方法
-1. 安装jittor。
-2. 准备数据集（例如MNIST），确保代码可以访问该数据集。
-3. 根据需要修改脚本中的配置参数，例如学习率、批次大小和训练轮数。
-4. 运行训练脚本：
-   ```
-   python CGAN.py
-   ```
+Project Description: This project implemented a Conditional Generative Adversarial Network (cGAN) for class-conditional image generation. Designed to synthesize high-quality images from random noise and class-specific labels, the model demonstrates the efficacy of GAN architectures in conditional image generation tasks.
